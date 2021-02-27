@@ -13,7 +13,7 @@ Studying how to organize HTML elements on my Layout
 - One can complement the other's functionality
 
 ## Properties
-- Containers and itens
+- Containers and items
 
 ### Container
 - display: grid;
@@ -26,7 +26,7 @@ Studying how to organize HTML elements on my Layout
 
 ... more 4 properties and **align**
 
-### Itens
+### Items
 - grid-column; - Where it'll be on our columns
     - grid-column-start;
     - grid-column-end;
@@ -36,3 +36,36 @@ Studying how to organize HTML elements on my Layout
 - grid-area; - Where it'll be on area
 
 ... more 2 properties and **align**
+
+## Align
+
+There is 6 properties to align:
+`justify-content`
+`align-content`
+`justify-items`
+`align-items`
+`justify-self`
+`align-self`
+
+We can separate them in two groups:
+`justify` and `align`
+`content`, `items` and `self`
+
+### Justify and Align
+
+We know that grid is two dimensional, so we have an x -axis and y-axis.
+
+The **x-axis** it's the horizontal position, from left to right.
+
+The **y-axis** it's the vertical position, from up to down
+
+
+### Content, Items and Self
+
+Joining the `justify`, or `align`, with these elements: `content`, `items and `self`; We get our properties.
+
+### Content
+
+`justify-content` and `align-content` allow us to align the grid itself, relative to grid space.
+
+These properties are rare because it's only useful when the grid is smaller than the area (Like when we use px in the grid size).
