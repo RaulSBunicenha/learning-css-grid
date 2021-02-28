@@ -1,6 +1,6 @@
 # CSS GRID
 
-(Youtbe Content)(https://www.youtube.com/watch?v=HN1UjzRSdBk)
+[Youtbe Content](https://www.youtube.com/watch?v=HN1UjzRSdBk)
 
 Studying how to organize HTML elements on my Layout with Grid's properties
 
