@@ -1,6 +1,8 @@
 # CSS GRID
 
-Studying how to organize HTML elements on my Layout
+(Youtbe Content)(https://www.youtube.com/watch?v=HN1UjzRSdBk)
+
+Studying how to organize HTML elements on my Layout with Grid's properties
 
 ## Grid
 - Are two-dimensional
@@ -11,6 +13,7 @@ Studying how to organize HTML elements on my Layout
 - Grid is two dimensional
 - Flexbox is one dimensional
 - One can complement the other's functionality
+- Check which brower isn't ablet to run grid
 
 ## Properties
 - Containers and items
@@ -24,7 +27,7 @@ Studying how to organize HTML elements on my Layout
      - grid-column-gap; - Spacing between coluns
 - grid-template-areas; - Delimit areas
 
-... more 4 properties and **align**
+... more 4 properties to **align**
 
 ### Items
 - grid-column; - Where it'll be on our columns
@@ -35,7 +38,7 @@ Studying how to organize HTML elements on my Layout
     - grid-row-end;
 - grid-area; - Where it'll be on area
 
-... more 2 properties and **align**
+... more 2 properties to **align**
 
 ## Align
 
