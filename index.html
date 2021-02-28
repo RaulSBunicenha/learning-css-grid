@@ -12,7 +12,7 @@
         <main>
             <div class="container-2">
                 <div></div>
-                <div></div>
+                <div class="center"></div>
                 <div></div>
                 <div></div>
                 <div></div>
@@ -37,7 +37,7 @@
             display: grid;
             /* grid-template-columns: 75vw 25vw; */
             grid-template-columns: 3fr 1fr; /*fr - fractions*/
-            grid-template-rows: 20vh 70vh 10vh; /* visible height - looks like percentage*/
+            grid-template-rows: 20vh 70vh 10vh; /* visible height - looks like percentage | vw - visible width */
             grid-template-areas: "header header"
                                 "main aside"
                                 "footer footer";
@@ -86,13 +86,30 @@
             width: 100%;
             height: 100%;
             display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr; */
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
             grid-gap: 5px;
+
+            /* content (x-axis and y-axis) */
+            justify-content: stretch; /*start, center, end, space-between, space-around, space-evenly*/
+            align-content: stretch; /*start, center, end, space-between, space-around, space-evenly*/
+
+            /* items (x-axis and y-axis) */
+            justify-items: start; /*start, center, end */
+            align-items: start; /*start, center, end */
         }
 
         .container-2 > div {
             background: white;
+            width: 80%;
+            height: 80%;
+        }
+
+        .container-2 > div.center {
+            justify-self: center; /*start, center, end */
+            align-self: center; /*start, center, end */
         }
     </style>
 </body>

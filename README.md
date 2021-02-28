@@ -72,3 +72,20 @@ Joining the `justify`, or `align`, with these elements: `content`, `items and `s
 `justify-content` and `align-content` allow us to align the grid itself, relative to grid space.
 
 These properties are rare because it's only useful when the grid is smaller than the area (Like when we use px in the grid size).
+
+We have 7 possibles values:
+1. start
+2. end
+3. center
+4. stretch - Will stretch to visible width (default when the rows/columns are 100%)
+5. space-between
+6. space-around
+7. space-evenly
+
+### Items
+
+`justify-items` and `align-items` allow us to align the grid items in any space that is possible, in the cell it is in.
+
+### Self
+
+`justify-self` and `align-self` allow us to align the items themselves. But configured in the item's style.
