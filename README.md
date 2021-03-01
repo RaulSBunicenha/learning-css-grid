@@ -86,6 +86,16 @@ We have 7 possibles values:
 
 `justify-items` and `align-items` allow us to align the grid items in any space that is possible, in the cell it is in.
 
+We have 3 possibles values:
+1. start
+2. end
+3. center
+
 ### Self
 
 `justify-self` and `align-self` allow us to align the items themselves. But configured in the item's style.
+
+We have 3 possibles values:
+1. start
+2. end
+3. center
