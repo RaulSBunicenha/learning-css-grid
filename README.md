@@ -2,6 +2,14 @@
 
 [Youtbe Content](https://www.youtube.com/watch?v=HN1UjzRSdBk)
 
+### Reviews
+- [x] One day after
+- [ ] Three days after
+- [ ] One weeak after
+- [ ] One month after
+- [ ] Two months after
+- [ ] Three months after
+
 Studying how to organize HTML elements on my Layout with Grid's properties
 
 ## Grid
