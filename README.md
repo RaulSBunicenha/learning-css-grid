@@ -4,7 +4,7 @@
 
 ## Reviews
 - [x] One day after
-- [ ] Three days after
+- [x] Three days after
 - [ ] One weeak after
 - [ ] One month after
 - [ ] Two months after
